@@ -3,8 +3,8 @@ redis = (loadfile "lua-redis.lua")()
 database = Redis.connect('127.0.0.1', 6379)
 chats = {}
 day = 86400
-bot_id = 196913743 -- Your Bot USER_ID
-sudo_users = {56693692,000000000--[[YOUE ID :|]]}
+bot_id = 314202351 -- Your Bot USER_ID
+sudo_users = {315017219,000000000--[[YOUE ID :|]]}
   -----------------------------------------------------------------------------------------------
                                      -- start functions --
   -----------------------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ function is_admin(user_id)
   for k,v in pairs(sudo_users) do
     if user_id == v then
       var = true
-    end
+    end➐
   end
     return var
 end
